@@ -1,4 +1,20 @@
-node_modules/
-.env
-dist/
-build/
+# Node modules (both frontend and backend)
+frontend/node_modules/
+smart-energy-meter/node_modules/
+
+# Build / dist folders
+frontend/build/
+frontend/dist/
+smart-energy-meter/build/
+
+# Environment files (NEVER push to GitHub)
+frontend/.env
+smart-energy-meter/.env
+
+# Logs
+*.log
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
